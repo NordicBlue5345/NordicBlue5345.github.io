@@ -1,0 +1,93 @@
+html{
+    background-color: rgb(24, 207, 213);
+}
+
+.header {
+    font-size: 60px;
+    font-style: italic;
+    font-family:cursive;
+    color:black;
+    padding-left: 5rem;
+    margin-right: 19em;
+    background-color:peru;
+
+}
+
+.head {
+    font-size: 40px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkcyan;
+    padding-left: 6rem;
+    padding-top: none;
+    margin-top: 3rem;
+    margin-right: 22em;
+}
+
+#c{
+    font-size: 30px;
+    font-family: monospace;
+}
+#t{
+    font-size: 30px;
+    font-family: monospace;
+}
+#m{
+    padding-left: 1rem;
+    font-size: 30px;
+    font-family: monospace;
+}
+#coffee{
+    padding-left: 4em;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#tea{
+    padding-left: 2em;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#food{
+    padding-left: 2em;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.feline{
+    font-size: 40px;
+    font-family: cursive;
+    font-style: italic;
+    background-color: darksalmon;
+    color: azure;
+    padding-left: 3em;
+    margin-right: 17em;
+}
+
+#basket{
+    padding: 3rem;
+    background-color: darkcyan;
+}
+
+.petroom{
+    font-size: 22px;
+}
+
+.adopt{
+    font-size: 20px;
+}
+#friends{
+    font-size: 20px;
+}
+
+.soon{
+    font-size: 20px;
+    background-color:rgb(40, 126, 160);
+    color: rgb(7, 7, 7);
+    padding: .5rem;
+}
+
+.new{
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
