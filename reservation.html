@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Tasty &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
+	<title>Cali-Co Cat Cafe &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -46,6 +46,8 @@
 
 	<!-- Flexslider  -->
 	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Date Time -->
+	<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
 
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
@@ -74,17 +76,17 @@
 						<ul>
 							<li><a href="index.html">Home</a></li>
 							<li><a href="menu.html">Menu</a></li>
-							<li class="has-dropdown active">
+							<li class="has-dropdown">
 								<a href="gallery.html">Gallery</a>
 								<ul class="dropdown">
-									<li><a href="#">Events</a></li>
+									<li><a href="#">Our Cali-Co Cats</a></li>
 									<li><a href="#">Food</a></li>
 									<li><a href="#">Coffees</a></li>
 								</ul>
 							</li>
-							<li><a href="reservation.html">Reservation</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li class="active"><a href="reservation.html">Party Reservation</a></li>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
 						</ul>
 					</div>
 				</div>
@@ -100,8 +102,8 @@
 				<div class="col-md-12 text-center">
 					<div class="display-t js-fullheight">
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-							<h1>See <em>Our</em> Gallery</h1>
-							<h2>Brought to you by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2>
+							<h1>Let us host your next Event!</h1>
+                            <h2>Contact us for information</h2>
 						</div>
 					</div>
 				</div>
@@ -110,11 +112,11 @@
 	</header>
 
 	
-	<div id="fh5co-gallery" class="fh5co-section">
+	<div id="fh5co-reservation-form" class="fh5co-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 fh5co-heading animate-box">
-					<h2>Our Gallery</h2>
+					<h2>We want to host your next party! Book a Reservation Now</h2>
 					<div class="row">
 						<div class="col-md-6">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis! Doloribus aliquam voluptates corporis et tempora consequuntur ipsam, itaque, nesciunt similique commodi omnis. Ad magni perspiciatis, voluptatum repellat.</p>
@@ -122,54 +124,41 @@
 					</div>
 				</div>
 				
+				<div class="col-md-6 col-md-push-6 col-sm-6 col-sm-push-6">
+					<form action="#" id="form-wrap">
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="name">Your Name</label>
+								<input type="text" class="form-control" id="name">
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="many">How Many People</label>
+								<select name="many" id="many" class="form-control custom_select">
+									<option value="#">1</option>
+									<option value="#">2</option>
+									<option value="#">3</option>
+									<option value="#">4+</option>
+								</select>
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="taskdatetime">When</label>
+								<input type="text" name="task-datetime" id="taskdatetime" class="form-control"/>
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col-md-12">
+								<input type="submit" class="btn btn-primary btn-outline btn-lg" value="Submit Form">
+							</div>
+						</div>
 
-				<div class="col-md-3 col-sm-3 fh5co-gallery_item">
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_1.jpeg);" data-trigger="zoomerang"></div>
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_2.jpeg);" data-trigger="zoomerang"></div>
+					</form>
 				</div>
-				<div class="col-md-6 col-sm-6 fh5co-gallery_item">
-					<div class="fh5co-bg-img fh5co-gallery_big" style="background-image: url(images/gallery_8.jpeg);" data-trigger="zoomerang"></div>
-				</div>
-				<div class="col-md-3 col-sm-3 fh5co-gallery_item">
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_4.jpeg);" data-trigger="zoomerang"></div>
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_5.jpeg);" data-trigger="zoomerang"></div>
-				</div>
-
-				<div class="col-md-3 col-sm-3 fh5co-gallery_item">
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_5.jpeg);" data-trigger="zoomerang"></div>
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_6.jpeg);" data-trigger="zoomerang"></div>
-				</div>
-				<div class="col-md-3 col-sm-3 fh5co-gallery_item">
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_7.jpeg);" data-trigger="zoomerang"></div>
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_8.jpeg);" data-trigger="zoomerang"></div>
-				</div>
-				<div class="col-md-6 col-sm-6 fh5co-gallery_item">
-					<div class="fh5co-bg-img fh5co-gallery_big" style="background-image: url(images/gallery_9.jpeg);" data-trigger="zoomerang"></div>
-				</div>
-
-				<div class="col-md-3 col-sm-3 fh5co-gallery_item">
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_1.jpeg);" data-trigger="zoomerang"></div>
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_2.jpeg);" data-trigger="zoomerang"></div>
-				</div>
-				<div class="col-md-6 col-sm-6 fh5co-gallery_item">
-					<div class="fh5co-bg-img fh5co-gallery_big" style="background-image: url(images/gallery_8.jpeg);" data-trigger="zoomerang"></div>
-				</div>
-				<div class="col-md-3 col-sm-3 fh5co-gallery_item">
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_4.jpeg);" data-trigger="zoomerang"></div>
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_5.jpeg);" data-trigger="zoomerang"></div>
-				</div>
-
-				<div class="col-md-3 col-sm-3 fh5co-gallery_item">
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_5.jpeg);" data-trigger="zoomerang"></div>
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_6.jpeg);" data-trigger="zoomerang"></div>
-				</div>
-				<div class="col-md-3 col-sm-3 fh5co-gallery_item">
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_7.jpeg);" data-trigger="zoomerang"></div>
-					<div class="fh5co-bg-img" style="background-image: url(images/gallery_8.jpeg);" data-trigger="zoomerang"></div>
-				</div>
-				<div class="col-md-6 col-sm-6 fh5co-gallery_item">
-					<div class="fh5co-bg-img fh5co-gallery_big" style="background-image: url(images/gallery_9.jpeg);" data-trigger="zoomerang"></div>
-				</div>
+				
+				
 			</div>
 		</div>
 	</div>
@@ -178,7 +167,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 fh5co-heading animate-box">
-					<h2>Testimony</h2>
+					<h2>What We Have to Offer</h2>
 					<div class="row">
 						<div class="col-md-6">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis! Doloribus aliquam voluptates corporis et tempora consequuntur ipsam, itaque, nesciunt similique commodi omnis.</p>
@@ -198,25 +187,12 @@
 			</div>
 		</div>
 	</div>
-	
-	<div id="fh5co-started" class="fh5co-section animate-box" style="background-image: url(images/hero_1.jpeg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Book a Table</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae enim quae vitae cupiditate, sequi quam ea id dolor reiciendis consectetur repudiandae. Rem quam, repellendus veniam ipsa fuga maxime odio? Eaque!</p>
-					<p><a href="mailto:info@yourdomainname.com" class="btn btn-primary btn-outline">Contact Us</a></p>
-				</div>
-			</div>
-		</div>
-	</div>
 
 	<footer id="fh5co-footer" role="contentinfo" class="fh5co-section">
 		<div class="container">
 			<div class="row row-pb-md">
 				<div class="col-md-4 fh5co-widget">
-					<h4>Cali-Co Cat Cafe</h4>
+					<h4>Tasty</h4>
 					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
 				</div>
 				<div class="col-md-2 col-md-push-1 fh5co-widget">
@@ -229,12 +205,11 @@
 					</ul>
 				</div>
 
-
 				<div class="col-md-4 col-md-push-1 fh5co-widget">
 					<h4>Contact Us</h4>
 					<ul class="fh5co-footer-links">
 						<li>198 Palma St, <br> Suite 721 CLOVIS CA 93611</li>
-						<li><a href="tel://1234567920">+ 559 123 456 7890</a></li>
+						<li><a href="tel://1234567920">+ 123 456 7890</a></li>
 						<li><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
 					</ul>
 				</div>
@@ -278,20 +253,14 @@
 	<script src="js/jquery.stellar.min.js"></script>
 	<!-- Flexslider -->
 	<script src="js/jquery.flexslider-min.js"></script>
-	<script src="js/zoomerang.js"></script>
+
+	<!-- Date Time -->
+	<script src="js/moment.min.js"></script>
+	<script src="js/bootstrap-datetimepicker.js"></script>
+	
+
 	<!-- Main -->
 	<script src="js/main.js"></script>
-
-	<script>
-		Zoomerang
-      .config({
-        maxHeight: 600,
-        maxWidth: 900,
-        bgColor: '#000',
-        bgOpacity: .85
-      })
-      .listen('[data-trigger="zoomerang"]')
-	</script>
 
 	</body>
 </html>
