@@ -541,7 +541,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	.fh5co-item {
 		float: left;
 		width: 100%;
-		backround: $brand-white;
+		background:hidden;
 		&.margin_top {
 			margin-top: 150px; 
 			@media screen and (max-width: $screen-xs) {
@@ -557,7 +557,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			color: $brand-secondary;
 			margin-bottom: 20px;
 			font-size: 30px;
-			display: block;
+			display:block;
 		}
 		img {
 			margin-bottom: 30px;
