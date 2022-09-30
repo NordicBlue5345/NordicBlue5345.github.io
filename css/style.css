@@ -16,11 +16,11 @@
     font-size: 18px;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.3);
-    background: #000 url(../images/broken_noise.png) repeat;
+    background: #000 url(../images/smaller_blue.jpg) repeat;
   }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     body {
-      background: #000 url(../images/broken_noise.png) repeat;
+      background: #000 url(../images/smaller_blue.jpg) repeat;
     }
   }
   
@@ -109,12 +109,12 @@
     }
   }
   .fh5co-nav.scrolled {
-    background: #000 url(../images/broken_noise.png) repeat;
+    background: #000 url(../images/smaller_blue.jpg) repeat;
     top: -82px;
   }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .fh5co-nav.scrolled {
-      background: #000 url(../images/broken_noise.png) repeat;
+      background: #000 url(../images/smaller_blue.jpg) repeat;
     }
   }
   @media screen and (max-width: 480px) {
@@ -488,7 +488,6 @@
   #fh5co-featured-menu .fh5co-item, #fh5co-gallery .fh5co-item, #fh5co-reservation-form .fh5co-item {
     float: left;
     width: 100%;
-    background: #fff;
   }
   #fh5co-featured-menu .fh5co-item.margin_top, #fh5co-gallery .fh5co-item.margin_top, #fh5co-reservation-form .fh5co-item.margin_top {
     margin-top: 150px;
@@ -1315,7 +1314,7 @@
     position: absolute;
     z-index: 1901;
     width: 270px;
-    background: #000 url(../images/broken_noise.png) repeat;
+    background: #000 url(../images/Blue_background.jpg) repeat;
     top: 0;
     right: 0;
     top: 0;
@@ -1334,7 +1333,7 @@
   }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     #fh5co-offcanvas {
-      background: #000 url(../images/broken_noise.png) repeat;
+      background: #000 url(../images/Blue_background.jpg) repeat;
     }
   }
   @media screen and (max-width: 768px) {
