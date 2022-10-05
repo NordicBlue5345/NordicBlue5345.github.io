@@ -15,8 +15,8 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 1.7;
-    color: rgba(255, 255, 255, 0.3);
-    background: #000 url(../images/smaller_blue.jpg) repeat;
+    color: rgba(255, 255, 255, 0.771);
+    background: rgb(0, 0, 0) url(../images/smaller_blue.jpg) repeat;
   }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     body {
@@ -165,7 +165,7 @@
   }
   .fh5co-nav ul li a {
     padding: 30px 15px;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.845);
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
@@ -444,8 +444,8 @@
     }
   }
   .fh5co-section p {
-    color: rgba(255, 255, 255, 0.3);
-    font-size: 18px;
+    color: rgba(255, 255, 255, 0.815);
+    font-size: 20px;
     line-height: 1.5;
   }
   
@@ -590,7 +590,7 @@
     }
   }
   #fh5co-featured-testimony blockquote .author {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.882);
     font-size: 30px;
   }
   @media screen and (max-width: 992px) {
@@ -1079,7 +1079,7 @@
     display: inline-block;
     margin-bottom: 20px;
     font-size: 14px !important;
-    color: rgba(0, 0, 0, 0.3);
+    color: rgba(240, 251, 31, 0.823);
   }
   .fh5co-blog .blog-text .stuff {
     margin: 0;
